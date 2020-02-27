@@ -96,6 +96,10 @@
     <Compile Include="Migrations\202002271836414_FixDateTimeOffset.designer.cs">
       <DependentUpon>202002271836414_FixDateTimeOffset.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002272009371_AddNoteItems.cs" />
+    <Compile Include="Migrations\202002272009371_AddNoteItems.designer.cs">
+      <DependentUpon>202002272009371_AddNoteItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -110,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002271836414_FixDateTimeOffset.resx">
       <DependentUpon>202002271836414_FixDateTimeOffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002272009371_AddNoteItems.resx">
+      <DependentUpon>202002272009371_AddNoteItems.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
